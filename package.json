@@ -1,0 +1,21 @@
+{
+  "name": "fleetdb",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node_modules/.bin/sequelize db:migrate && node_modules/.bin/sequelize db:seed:all"
+  },
+  "dependencies": {
+    "debug": "~3.1.0",
+    "dotenv": "^6.0.0",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.38.0",
+    "sequelize-cli": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-hapi": "^12.0.0",
+    "eslint-config-skycatch": "git+https://github.com/Skycatch/eslint-config-skycatch.git",
+    "eslint-plugin-hapi": "^4.1.0"
+  }
+}
